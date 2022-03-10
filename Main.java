@@ -10,33 +10,54 @@ package com.codewithchris;
 public class Main {
 
     public static void main(String[] args) {
-        double[] myGrades = new double[5];
-        myGrades[0] = 3.4;
-        myGrades[1] = 4.0;
-        myGrades[2] = 4.0;
-        myGrades[3] = 3.4;
-        myGrades[4] = 4.0;
-
-        double sum = add(myGrades);
-        double avg = sum/myGrades.length;
-        print("your average is "+avg);
+	int i = 0;
+    while(i < 9){
+        System.out.println(i);i++;
     }
+    // do while loop
+        int result = 9;
+        int p = 0;
+       // int i=1;
+        do{
+            System.out.println(result);
+            p++;
+            result++;
+        }while(p<0 || p>5);
 
-    public  static double add(double[] grades) {
-        double addition = 0;
-        for(int i =0; i<grades.length;i++){
-            addition += grades[i];
+        //switch
+        int colors = 20;
+        switch(colors){
+            case 5:
+                System.out.println("5");
+                break;
+            case 8:
+                System.out.println("8");
+                break;
+            case 40:
+                System.out.println("40");
+                break;
+            case 10:
+                System.out.println("10");
+                break;
+            case 20:
+                System.out.println("20");
+                break;
+            case 18:
+                System.out.println("18");
+                break;
+            case 45:
+                System.out.println("45");
+                break;
+            case 30:
+                System.out.println("30");
+                break;
+            default:
+                System.out.println("print none");
         }
-        return addition;
+
+
     }
-    public  static  void print(String text){
-        System.out.println(text);
-    }
-    }
-
-
-
-
+}
 
 
 
