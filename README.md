@@ -1,2 +1,2 @@
-# java-loop
-while, do-while, swtich
+# java-function
+function on java
